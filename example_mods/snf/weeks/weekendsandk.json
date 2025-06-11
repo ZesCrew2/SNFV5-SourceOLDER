@@ -1,0 +1,50 @@
+{
+	"storyName": "aw fuckles it's knuckles",
+	"difficulties": "Added in SNF And Knuckles",
+	"hideFreeplay": false,
+	"weekBackground": "discord",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"A Fun Time",
+			"knux",
+			[
+				212,
+				46,
+				65
+			]
+		],
+		[
+			"Knuckleheaded",
+			"knux",
+			[
+				212,
+				46,
+				65
+			]
+		],
+		[
+			"Sandopolis",
+			"knux",
+			[
+				212,
+				46,
+				65
+			]
+		]
+	],
+	"weekCharacters": [
+		"knux",
+		"",
+		"sonic2022"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Weekend S&K"
+}

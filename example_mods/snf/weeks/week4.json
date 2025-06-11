@@ -1,0 +1,44 @@
+{
+	"storyName": "The greatest scientific genius in the world!",
+	"difficulties": "Added in SNF V3",
+	"hideFreeplay": false,
+	"weekBackground": "fortress",
+	"weekBefore": "week1",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Re-Rocked",
+			"robotnik",
+			[
+				253,
+				125,
+				54
+			]
+		],
+		[
+			"Blasted Hedgehog",
+			"robotnik",
+			[
+				253,
+				125,
+				54
+			]
+		],
+		[
+			"Dithering Dingbots",
+			"robotnik",
+			[
+				253,
+				125,
+				54
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"robotnik",
+		"breezie",
+		"sonictrueblue"
+	],
+	"weekName": "Week 4"
+}

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="breezie2.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="IdleDance0000" x="0" y="0" width="549" height="684" frameX="0" frameY="-9" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0001" x="0" y="0" width="549" height="684" frameX="0" frameY="-9" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0002" x="549" y="0" width="537" height="686" frameX="-8" frameY="-8" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0003" x="549" y="0" width="537" height="686" frameX="-8" frameY="-8" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0004" x="1086" y="0" width="537" height="692" frameX="-10" frameY="-2" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0005" x="1086" y="0" width="537" height="692" frameX="-10" frameY="-2" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0006" x="0" y="692" width="539" height="693" frameX="-12" frameY="-1" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0007" x="0" y="692" width="539" height="693" frameX="-12" frameY="-1" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0008" x="539" y="692" width="542" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0009" x="539" y="692" width="542" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0010" x="1081" y="692" width="544" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0011" x="1081" y="692" width="544" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0012" x="1081" y="692" width="544" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0013" x="0" y="1386" width="542" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0014" x="542" y="1386" width="535" height="682" frameX="-22" frameY="-11" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0015" x="542" y="1386" width="535" height="682" frameX="-22" frameY="-11" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0016" x="1077" y="1386" width="541" height="682" frameX="-19" frameY="-12" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0017" x="1077" y="1386" width="541" height="682" frameX="-19" frameY="-12" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0018" x="0" y="2080" width="542" height="689" frameX="-15" frameY="-5" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0019" x="0" y="2080" width="542" height="689" frameX="-15" frameY="-5" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0020" x="542" y="2080" width="545" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0021" x="542" y="2080" width="545" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0022" x="1087" y="2080" width="544" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0023" x="1087" y="2080" width="544" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0024" x="1081" y="692" width="544" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0025" x="1081" y="692" width="544" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0026" x="1081" y="692" width="544" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+	<SubTexture name="IdleDance0027" x="0" y="1386" width="542" height="694" frameX="-12" frameY="0" frameWidth="560" frameHeight="694"/>
+</TextureAtlas>

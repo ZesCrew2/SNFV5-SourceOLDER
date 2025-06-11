@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bernie.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="bedhead0000" x="28" y="0" width="30" height="42" frameX="2" frameY="-1" frameWidth="26" frameHeight="41"/>
+	<SubTexture name="bedhead0001" x="58" y="0" width="28" height="44" frameX="1" frameY="1" frameWidth="26" frameHeight="41"/>
+	<SubTexture name="bedhead0002" x="0" y="0" width="28" height="45" frameX="1" frameY="2" frameWidth="26" frameHeight="41"/>
+	<SubTexture name="bedhead0003" x="0" y="0" width="28" height="45" frameX="1" frameY="2" frameWidth="26" frameHeight="41"/>
+	<SubTexture name="bedhead0004" x="0" y="0" width="28" height="45" frameX="1" frameY="2" frameWidth="26" frameHeight="41"/>
+	<SubTexture name="bedhead0005" x="0" y="0" width="28" height="45" frameX="1" frameY="2" frameWidth="26" frameHeight="41"/>
+	<SubTexture name="bedhead0006" x="0" y="0" width="28" height="45" frameX="1" frameY="2" frameWidth="26" frameHeight="41"/>
+	<SubTexture name="bedhead0007" x="0" y="0" width="28" height="45" frameX="1" frameY="2" frameWidth="26" frameHeight="41"/>
+</TextureAtlas>

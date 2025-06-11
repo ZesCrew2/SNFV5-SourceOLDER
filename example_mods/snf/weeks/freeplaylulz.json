@@ -1,0 +1,54 @@
+{
+	"storyName": "freeplay",
+	"difficulties": "Added in SNF V5",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"First American",
+			"tommy",
+			[
+				255,
+				33,
+				53
+			]
+		],
+		[
+			"tt kaizo snf mix",
+			"evilmint",
+			[
+				106,
+				193,
+				255
+			]
+		],
+		[
+			"Drown in the Now",
+			"lilydrowninthenow",
+			[
+				40,
+				40,
+				40
+			]
+		],
+		[
+			"Disagreement SNF MIX",
+			"cybershell",
+			[
+				65,
+				95,
+				234
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "freeplay"
+}

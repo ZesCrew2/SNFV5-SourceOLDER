@@ -1,0 +1,63 @@
+{
+	"animations": [
+		{
+			"offsets": [491, 351],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [325, 344],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [684, 929],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [389, 281],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"loop": true,
+			"offsets": [413, 293],
+			"anim": "NoAnim",
+			"fps": 24,
+			"name": "Idle",
+			"indices": [12, 12, 14, 14]
+		},
+		{
+			"offsets": [413, 293],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		}
+	],
+	"vocals_file": "dream",
+	"no_antialiasing": false,
+	"image": "characters/murdererdream",
+	"position": [-100, 0],
+	"healthicon": "dream",
+	"flip_x": false,
+	"healthbar_colors": [254, 254, 254],
+	"camera_position": [150, 70],
+	"sing_duration": 6.1,
+	"scale": 0.4,
+	"_editor_isPlayer": false
+}

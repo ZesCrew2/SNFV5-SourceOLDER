@@ -1,0 +1,198 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-33,
+				339
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				6,
+				-27
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				-4,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				-30,
+				-16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				2,
+				-131
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "not a cry for help"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				42,
+				25
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "MissLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				37
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "MissUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				-16
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "MissRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				20,
+				-64
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "hurt",
+			"indices": [
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36
+			],
+			"name": "MissDown"
+		},
+		{
+			"offsets": [
+				30,
+				-34
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				8,
+				9
+			],
+			"name": "MissDown"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				105,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "DanceLeft",
+			"indices": []
+		}
+	],
+	"vocals_file": "breeziegf",
+	"no_antialiasing": false,
+	"image": "characters/newbreeziegf",
+	"position": [
+		150,
+		-55
+	],
+	"healthicon": "breeziegf",
+	"flip_x": false,
+	"healthbar_colors": [
+		128,
+		201,
+		158
+	],
+	"camera_position": [
+		200,
+		-90
+	],
+	"sing_duration": 4,
+	"scale": 0.7,
+	"_editor_isPlayer": false
+}

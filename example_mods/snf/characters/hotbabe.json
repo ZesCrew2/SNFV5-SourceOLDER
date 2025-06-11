@@ -1,0 +1,36 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-3
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "played",
+			"indices": []
+		}
+	],
+	"vocals_file": "gf",
+	"no_antialiasing": false,
+	"image": "characters/4sake/hotbabe",
+	"position": [
+		250,
+		550
+	],
+	"healthicon": "richard",
+	"flip_x": false,
+	"healthbar_colors": [
+		34,
+		177,
+		76
+	],
+	"camera_position": [
+		-150,
+		40
+	],
+	"sing_duration": 5.9,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

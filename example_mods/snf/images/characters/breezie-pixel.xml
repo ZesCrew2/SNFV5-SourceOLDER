@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="breezie-pixel.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DanceLeft0000" x="0" y="0" width="64" height="49"/>
+	<SubTexture name="DanceLeft0001" x="0" y="0" width="64" height="49"/>
+	<SubTexture name="DanceLeft0002" x="64" y="0" width="64" height="49"/>
+	<SubTexture name="DanceLeft0003" x="64" y="0" width="64" height="49"/>
+	<SubTexture name="DanceLeft0004" x="0" y="49" width="64" height="49"/>
+	<SubTexture name="DanceLeft0005" x="0" y="49" width="64" height="49"/>
+	<SubTexture name="DanceLeft0006" x="0" y="49" width="64" height="49"/>
+	<SubTexture name="DanceLeft0007" x="0" y="49" width="64" height="49"/>
+	<SubTexture name="DanceLeft0008" x="64" y="49" width="64" height="49"/>
+	<SubTexture name="DanceLeft0009" x="64" y="49" width="64" height="49"/>
+	<SubTexture name="DanceRight0000" x="0" y="98" width="64" height="49"/>
+	<SubTexture name="DanceRight0001" x="0" y="98" width="64" height="49"/>
+	<SubTexture name="DanceRight0002" x="64" y="98" width="64" height="49"/>
+	<SubTexture name="DanceRight0003" x="64" y="98" width="64" height="49"/>
+	<SubTexture name="DanceRight0004" x="0" y="49" width="64" height="49"/>
+	<SubTexture name="DanceRight0005" x="0" y="49" width="64" height="49"/>
+	<SubTexture name="DanceRight0006" x="0" y="49" width="64" height="49"/>
+	<SubTexture name="DanceRight0007" x="0" y="49" width="64" height="49"/>
+	<SubTexture name="DanceRight0008" x="0" y="147" width="64" height="49"/>
+	<SubTexture name="DanceRight0009" x="0" y="147" width="64" height="49"/>
+	<SubTexture name="Oops0000" x="64" y="147" width="64" height="49"/>
+	<SubTexture name="Oops0001" x="64" y="147" width="64" height="49"/>
+	<SubTexture name="Oops0002" x="0" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0003" x="0" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0004" x="64" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0005" x="64" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0006" x="64" y="147" width="64" height="49"/>
+	<SubTexture name="Oops0007" x="64" y="147" width="64" height="49"/>
+	<SubTexture name="Oops0008" x="0" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0009" x="0" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0010" x="64" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0011" x="64" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0012" x="64" y="147" width="64" height="49"/>
+	<SubTexture name="Oops0013" x="64" y="147" width="64" height="49"/>
+	<SubTexture name="Oops0014" x="0" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0015" x="0" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0016" x="64" y="196" width="64" height="49"/>
+	<SubTexture name="Oops0017" x="64" y="196" width="64" height="49"/>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+{
+	"confirm_anim": "Pico Idle Dance",
+	"antialiasing": true,
+	"idle_anim": "Pico Idle Dance",
+	"position": [12, -40],
+	"scale": 0.65,
+	"image": "Pico_FNF_assetss",
+	"flipX": true
+}

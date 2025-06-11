@@ -1,0 +1,32 @@
+{
+	"storyName": "New Beginnings",
+	"difficulties": "Added in SNF V1",
+	"hideFreeplay": false,
+	"weekBackground": "ghz",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"breezie",
+		"sonic"
+	],
+	"songs": [
+		[
+			"Rhythm Helper",
+			"breezie",
+			[
+				128,
+				201,
+				153
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Tutorial",
+	"hiddenUntilUnlocked": false
+}

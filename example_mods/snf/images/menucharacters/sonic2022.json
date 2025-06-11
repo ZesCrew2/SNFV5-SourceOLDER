@@ -1,0 +1,9 @@
+{
+	"confirm_anim": "Idle",
+	"antialiasing": true,
+	"idle_anim": "Idle",
+	"position": [122, -20],
+	"scale": 0.65,
+	"image": "snfsonicnew",
+	"flipX": true
+}

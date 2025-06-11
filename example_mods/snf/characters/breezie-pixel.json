@@ -1,0 +1,39 @@
+{
+	"animations": [
+		{
+			"offsets": [0, 30],
+			"loop": false,
+			"fps": 12,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "DanceLeft"
+		},
+		{
+			"offsets": [0, 30],
+			"loop": false,
+			"fps": 12,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "DanceRight"
+		},
+		{
+			"offsets": [0, 30],
+			"loop": false,
+			"fps": 12,
+			"anim": "sad",
+			"indices": [],
+			"name": "Oops"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/breezie-pixel",
+	"position": [150, 550],
+	"healthicon": "breezie",
+	"flip_x": false,
+	"healthbar_colors": [128, 201, 158],
+	"camera_position": [-250, -130],
+	"sing_duration": 8,
+	"scale": 7,
+	"_editor_isPlayer": false
+}

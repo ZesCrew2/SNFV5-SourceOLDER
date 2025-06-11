@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-24,
+				124
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathstart",
+			"indices": [],
+			"name": "deathstart"
+		},
+		{
+			"offsets": [
+				-24,
+				124
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathloop",
+			"indices": [],
+			"name": "deathloop"
+		},
+		{
+			"offsets": [
+				-23,
+				144
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathend",
+			"indices": [],
+			"name": "deathend"
+		}
+	],
+	"vocals_file": "gf",
+	"no_antialiasing": false,
+	"image": "characters/fumadeath",
+	"position": [
+		60,
+		200
+	],
+	"healthicon": "u6",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-450,
+		-80
+	],
+	"sing_duration": 5.6,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

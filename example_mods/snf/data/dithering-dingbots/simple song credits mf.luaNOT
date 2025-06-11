@@ -1,0 +1,86 @@
+composer = "ZesCrew2" -- This goes for each song, you have to adjust the names.
+charter = "Chris The Hedgehog" -- This goes for each song, you have to adjust the names.
+bpm = "170" -- Please make sure to change the bpms for each song, because I don't know how to get the chart bpms correctly.
+
+function onCreate()
+if songName == "Re-Rocked" then
+makeLuaSprite('blackBars', 'plate', -1000, -150);
+elseif songName == "Blasted Hedgehog" then
+makeLuaSprite('blackBars', 'plate', -1000, -150);
+elseif songName == "Dithering Dingbots" then
+makeLuaSprite('blackBars', 'plate', -1000, -150);
+elseif songName == "robotnik-ii" then
+makeLuaSprite('blackBars', 'plate', -1000, -150);
+else
+makeLuaSprite('blackBars', 'plate', -1000, -25);
+end
+addLuaSprite('blackBars', false);
+setProperty('blackBars.alpha', 0.8)
+setProperty('blackBars.flipX', true)
+scaleObject('blackBars', 0.8, 0.8)
+setObjectCamera('blackBars', 'camHUD');
+
+	if songName == "Re-Rocked" then
+	makeLuaText('songCredits', songName, 0, -1000, 100-25);
+	
+	elseif songName == "Blasted Hedgehog" then
+	makeLuaText('songCredits', songName, 0, -1000, 100-25);
+	
+	elseif songName == "Dithering Dingbots" then
+	makeLuaText('songCredits', songName, 0, -1000, 100-25);
+	
+	elseif songName == "robotnik-ii" then
+	makeLuaText('songCredits', songName, 0, -1000, 100-25);
+	
+	else
+	makeLuaText('songCredits', songName, 0, -1000, 225-25);
+	end
+setTextSize('songCredits', 50);
+setTextAlignment('songCredits', 'left')
+setTextWidth('songCredits', '1280')
+addLuaText('songCredits');
+setObjectCamera('songCredits', 'camHUD');
+
+	if songName == "Re-Rocked" then
+	makeLuaText('songCreditsRest', composer.." (Composer)\n"..charter.." (Charter)\nBPM: "..bpm, 0, -1000, 100+50);
+	
+	elseif songName == "Blasted Hedgehog" then
+	makeLuaText('songCreditsRest', composer.." (Composer)\n"..charter.." (Charter)\nBPM: "..bpm, 0, -1000, 100+50);
+	
+	elseif songName == "Dithering Dingbots" then
+	makeLuaText('songCreditsRest', composer.." (Composer)\n"..charter.." (Charter)\nBPM: "..bpm, 0, -1000, 100+50);
+	
+	elseif songName == "robotnik-ii" then
+	makeLuaText('songCreditsRest', composer.." (Composer)\n"..charter.." (Charter)\nBPM: "..bpm, 0, -1000, 100+50);
+	
+	else
+	makeLuaText('songCreditsRest', composer.." (Composer)\n"..charter.." (Charter)\nBPM: "..bpm, 0, -1000, 225+50);
+	end
+setTextSize('songCreditsRest', 30);
+setTextAlignment('songCreditsRest', 'left')
+setTextWidth('songCreditsRest', '1280')
+addLuaText('songCreditsRest');
+setObjectCamera('songCreditsRest', 'camHUD');
+end
+
+function onSongStart()
+	if songName == "Re-Rocked" and songName == "Blasted Hedgehog" and songName == "Dithering Dingbots" and songName == "robotnik-ii" then
+	doTweenX("no way wow it's the credits itself!!", 'songCredits', 0, 1, 'sineInOut')
+	doTweenX("no way wow it's the credits itself 1!!", 'songCreditsRest', 0, 1, 'sineInOut')
+	doTweenX("no way wow it's the credits itself 2!!", 'blackBars', -50, 1, 'sineInOut')
+	runTimer('bye credits', 6)
+	else
+	doTweenX("no way wow it's the credits itself!!", 'songCredits', 25, 1, 'sineInOut')
+	doTweenX("no way wow it's the credits itself 1!!", 'songCreditsRest', 25, 1, 'sineInOut')
+	doTweenX("no way wow it's the credits itself 2!!", 'blackBars', -50, 1, 'sineInOut')
+	runTimer('bye credits', 6)
+	end
+end
+
+function onTimerCompleted(tag)
+	if tag == 'bye credits' then
+	doTweenX("no way wow it's the credits itself!!", 'songCredits', -1000, 1, 'quartIn')
+	doTweenX("no way wow it's the credits itself 1!!", 'songCreditsRest', -1000, 1, 'quartIn')
+	doTweenX("no way wow it's the credits itself 2!!", 'blackBars', -1000, 1, 'quartIn')
+	end
+end

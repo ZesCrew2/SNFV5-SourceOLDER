@@ -1,0 +1,17 @@
+function onCreate()
+makeLuaSprite('vhsShader')
+setSpriteShader('vhsShader', 'vhs')
+
+makeLuaSprite('chromShader')
+setSpriteShader('chromShader', 'vcr_glitch')
+
+		runHaxeCode([[
+			game.camGame.setFilters([new ShaderFilter(game.getLuaObject('vhsShader').shader), new ShaderFilter(game.getLuaObject('chromShader').shader)]);
+			game.camHUD.setFilters([new ShaderFilter(game.getLuaObject('chromShader').shader)]);
+			game.camOther.setFilters();
+		]])
+end
+
+function onUpdate()
+setShaderFloat("vhsShader", 'iTime', os.clock())
+end

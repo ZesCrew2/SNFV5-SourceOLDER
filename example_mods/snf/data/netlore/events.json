@@ -1,0 +1,18 @@
+{
+	"events": [
+		[
+			0,
+			[
+				["Set GF Speed", "2", ""]
+			]
+		],
+		[
+			39000,
+			[
+				["Play Animation", "shocked", "Dad"],
+				["Change Character", "Dad", "cyberpissed"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

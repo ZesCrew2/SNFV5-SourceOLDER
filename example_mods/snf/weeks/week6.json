@@ -1,0 +1,44 @@
+{
+	"storyName": "funkin-windows-em-v666.zip",
+	"difficulties": "Added in SNF V4",
+	"hideFreeplay": false,
+	"weekBackground": "limbo",
+	"weekBefore": "week1",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"False Mirror",
+			"snfsonicv1",
+			[
+				60,
+				121,
+				193
+			]
+		],
+		[
+			"Hillside",
+			"colorspillnofx",
+			[
+				60,
+				121,
+				193
+			]
+		],
+		[
+			"Predecessor",
+			"colorspillnofx3",
+			[
+				60,
+				121,
+				193
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"notsonic",
+		"breezie2",
+		"sonic2025"
+	],
+	"weekName": "Week 6"
+}

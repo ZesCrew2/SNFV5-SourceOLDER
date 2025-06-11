@@ -1,0 +1,39 @@
+{
+	"animations": [
+		{
+			"offsets": [-83, -59],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "FirstDeath"
+		},
+		{
+			"offsets": [-121, -86],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "DeathENTER"
+		},
+		{
+			"offsets": [-121, -86],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "DeathLOOP"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/sonicdrowninthenow",
+	"position": [-80, 390],
+	"healthicon": "sonicdrowninthenow",
+	"flip_x": true,
+	"healthbar_colors": [255, 255, 255],
+	"camera_position": [-270, -30],
+	"sing_duration": 4,
+	"scale": 1.4,
+	"_editor_isPlayer": true
+}

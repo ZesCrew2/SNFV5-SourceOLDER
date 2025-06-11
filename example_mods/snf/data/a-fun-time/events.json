@@ -1,0 +1,156 @@
+{
+	"events": [
+		[
+			0,
+			[
+				["RalZoom-setZoom", "game", "0.8/6/quintOut"]
+			]
+		],
+		[
+			30236.2204724409,
+			[
+				["RalZoom-setZoom", "game", "0.85/2/quintOut"]
+			]
+		],
+		[
+			34015.7480314961,
+			[
+				["RalZoom-setZoom", "game", "0.95/2/quintOut"]
+			]
+		],
+		[
+			37795.2755905512,
+			[
+				["RalZoom-setZoom", "game", "0.85/2/quintOut"]
+			]
+		],
+		[
+			41574.8031496063,
+			[
+				["RalZoom-setZoom", "game", "0.95/2/quintOut"]
+			]
+		],
+		[
+			45354.3307086614,
+			[
+				["RalZoom-setZoom", "game", "1.0/2/quintOut"]
+			]
+		],
+		[
+			49133.8582677165,
+			[
+				["RalZoom-setZoom", "game", "0.95/2/quintOut"]
+			]
+		],
+		[
+			52913.3858267716,
+			[
+				["RalZoom-setZoom", "game", "1.0/2/quintOut"]
+			]
+		],
+		[
+			56692.9133858268,
+			[
+				["RalZoom-setZoom", "game", "0.95/2/quintOut"]
+			]
+		],
+		[
+			60472.4409448819,
+			[
+				["RalZoom-setZoom", "game", "0.85/2/quintOut"]
+			]
+		],
+		[
+			64251.968503937,
+			[
+				["RalZoom-setZoom", "game", "0.95/2/quintOut"]
+			]
+		],
+		[
+			68031.4960629921,
+			[
+				["RalZoom-setZoom", "game", "0.85/2/quintOut"]
+			]
+		],
+		[
+			71811.0236220473,
+			[
+				["RalZoom-setZoom", "game", "0.95/2/quintOut"]
+			]
+		],
+		[
+			75590.5511811024,
+			[
+				["RalZoom-setZoom", "game", "0.85/2/quintOut"]
+			]
+		],
+		[
+			98267.7165354332,
+			[
+				["RalZoom-setZoom", "game", "0.95/2/quintOut"]
+			]
+		],
+		[
+			105826.771653543,
+			[
+				["RalZoom-setZoom", "game", "0.85/2/quintOut"]
+			]
+		],
+		[
+			109606.299212599,
+			[
+				["RalZoom-setZoom", "game", "0.95/2/quintOut"]
+			]
+		],
+		[
+			113385.826771654,
+			[
+				["RalZoom-setZoom", "game", "0.85/2/quintOut"]
+			]
+		],
+		[
+			117165.354330709,
+			[
+				["RalZoom-setZoom", "game", "0.95/2/quintOut"]
+			]
+		],
+		[
+			120944.881889764,
+			[
+				["RalZoom-setZoom", "game", "1.0/2/quintOut"]
+			]
+		],
+		[
+			124724.409448819,
+			[
+				["RalZoom-setZoom", "game", "0.95/2/quintOut"]
+			]
+		],
+		[
+			128503.937007874,
+			[
+				["RalZoom-setZoom", "game", "1.0/2/quintOut"]
+			]
+		],
+		[
+			132283.464566929,
+			[
+				["RalZoom-setZoom", "game", "1.1/2/quintOut"]
+			]
+		],
+		[
+			136062.992125984,
+			[
+				["RalZoom-setZoom", "game", "0.7/6/quintOut"],
+				["Camera Follow Pos", "845", "670"]
+			]
+		],
+		[
+			143622.047244095,
+			[
+				["RalZoom-setZoom", "game", "2/6/quintIn"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

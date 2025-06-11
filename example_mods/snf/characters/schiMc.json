@@ -1,0 +1,36 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"vocals_file": "gf",
+	"no_antialiasing": false,
+	"image": "characters/scaryAAAA/schizoMc",
+	"position": [
+		340,
+		40
+	],
+	"healthicon": "sigma",
+	"flip_x": false,
+	"healthbar_colors": [
+		215,
+		0,
+		80
+	],
+	"camera_position": [
+		-120,
+		-120
+	],
+	"sing_duration": 5.9,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

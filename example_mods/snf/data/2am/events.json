@@ -1,0 +1,36 @@
+{
+	"events": [
+		[
+			0,
+			[
+				["Play Animation", "Silly", "BF"]
+			]
+		],
+		[
+			528.169014084507,
+			[
+				["Change Character", "1", "lilygoober"]
+			]
+		],
+		[
+			528.169014084507,
+			[
+				["Play Animation", "idle", "BF"]
+			]
+		],
+		[
+			528.169014084507,
+			[
+				["Change Character", "GF", "doorOPEN"]
+			]
+		],
+		[
+			37256,
+			[
+				["Change Character", "Dad", "lilygoobergone"],
+				["Change Character", "GF", "door"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

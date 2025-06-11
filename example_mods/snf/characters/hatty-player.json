@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [-6, 264],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [-62, 326],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"loop": false,
+			"offsets": [-28, 281],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"offsets": [12, 278],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Right"
+		},
+		{
+			"offsets": [-177, 296],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Left"
+		}
+	],
+	"vocals_file": "hatty",
+	"no_antialiasing": false,
+	"image": "characters/hattyfnf",
+	"position": [216, 707],
+	"healthicon": "hattyhattington",
+	"flip_x": false,
+	"healthbar_colors": [255, 255, 255],
+	"camera_position": [50, -320],
+	"sing_duration": 6.1,
+	"scale": 3.2,
+	"_editor_isPlayer": true
+}

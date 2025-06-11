@@ -1,0 +1,63 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [131, -69],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [275, -136],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [204, -21],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [19, -124],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [-17, -77],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"offsets": [-17, -77],
+			"loop": true,
+			"fps": 24,
+			"anim": "NoAnim",
+			"indices": [12, 12, 14, 14],
+			"name": "Idle"
+		}
+	],
+	"vocals_file": "sansandpump",
+	"no_antialiasing": false,
+	"image": "characters/ssndpV2",
+	"position": [-100, 0],
+	"healthicon": "sansskidanddemonpump",
+	"flip_x": false,
+	"healthbar_colors": [213, 126, 0],
+	"camera_position": [20, 70],
+	"sing_duration": 6.1,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}

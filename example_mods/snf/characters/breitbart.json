@@ -1,0 +1,63 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [611, 531],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [445, 414],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [434, 779],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [499, 466],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [453, 413],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"offsets": [453, 413],
+			"loop": false,
+			"fps": 24,
+			"anim": "NoAnim",
+			"indices": [12, 12, 12],
+			"name": "Idle"
+		}
+	],
+	"vocals_file": "breitbart",
+	"no_antialiasing": false,
+	"image": "characters/brietbart p2",
+	"position": [0, 0],
+	"healthicon": "breitbart",
+	"flip_x": false,
+	"healthbar_colors": [0, 0, 255],
+	"camera_position": [-40, 50],
+	"sing_duration": 6.1,
+	"scale": 0.4,
+	"_editor_isPlayer": false
+}

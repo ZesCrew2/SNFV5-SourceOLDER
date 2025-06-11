@@ -1,0 +1,119 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "crouch",
+			"fps": 12,
+			"name": "shellCrouch",
+			"indices": []
+		},
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 12,
+			"anim": "shocked",
+			"indices": [],
+			"name": "shellShocked"
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "crouch",
+			"fps": 12,
+			"name": "shellCrouch",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "idle-alt",
+			"fps": 12,
+			"name": "shellAngryIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "singLEFT-alt",
+			"fps": 12,
+			"name": "shellAngryLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "singDOWN-alt",
+			"fps": 12,
+			"name": "shellAngryDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "singUP-alt",
+			"fps": 12,
+			"name": "shellAngryUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "singRIGHT-alt",
+			"fps": 12,
+			"name": "shellAngryRight",
+			"indices": []
+		},
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "shellAngryIdle"
+		},
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "shellAngryDown"
+		},
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "shellAngryUp"
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "shellAngryRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "shellAngryLeft",
+			"indices": []
+		}
+	],
+	"vocals_file": "cybershell",
+	"no_antialiasing": true,
+	"image": "characters/cybershell-pixel",
+	"position": [120, 580],
+	"healthicon": "shell-pixel",
+	"flip_x": true,
+	"healthbar_colors": [36, 36, 144],
+	"camera_position": [50, -150],
+	"sing_duration": 8,
+	"scale": 7,
+	"_editor_isPlayer": false
+}

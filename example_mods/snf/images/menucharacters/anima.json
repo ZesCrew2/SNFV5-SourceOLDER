@@ -1,0 +1,9 @@
+{
+	"confirm_anim": "Dad idle dance",
+	"antialiasing": true,
+	"idle_anim": "Dad idle dance",
+	"position": [58, 202],
+	"scale": 0.5,
+	"image": "anima",
+	"flipX": false
+}

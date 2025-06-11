@@ -1,0 +1,6 @@
+value1 changes the text
+set it to blank if you want to clear it
+
+value2 changes the color
+type ur hex code here (ex: AABBCC)
+set it to blank for default color (white)

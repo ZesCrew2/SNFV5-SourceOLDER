@@ -1,0 +1,26 @@
+{
+	"storyName": "adobe sucks",
+	"difficulties": "Added in SNF V5",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"P1r4cy",
+			"anima-crisis",
+			[
+				0,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "P1R4CY"
+}

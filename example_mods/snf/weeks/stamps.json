@@ -1,0 +1,27 @@
+{
+	"storyName": "lolol",
+	"difficulties": "Added in SNF V5",
+	"hideFreeplay": false,
+	"weekBackground": "bbt",
+	"weekBefore": "week7",
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"circleprisoner",
+		"sonic",
+		"breeziegf"
+	],
+	"songs": [
+		[
+			"Stamps",
+			"hattyhattington",
+			[
+				95,
+				255,
+				93
+			]
+		]
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "Stamps"
+}

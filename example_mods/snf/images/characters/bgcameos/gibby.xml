@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gibby.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="0" y="0" width="1334" height="1756" frameX="0" frameY="-31" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0001" x="0" y="0" width="1334" height="1756" frameX="0" frameY="-31" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0002" x="1334" y="0" width="1273" height="1785" frameX="-64" frameY="-2" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0003" x="1334" y="0" width="1273" height="1785" frameX="-64" frameY="-2" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0004" x="2607" y="0" width="1213" height="1787" frameX="-112" frameY="0" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0005" x="2607" y="0" width="1213" height="1787" frameX="-112" frameY="0" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0006" x="0" y="1787" width="1169" height="1782" frameX="-156" frameY="-5" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0007" x="0" y="1787" width="1169" height="1782" frameX="-156" frameY="-5" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0008" x="0" y="1787" width="1169" height="1782" frameX="-156" frameY="-5" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0009" x="0" y="1787" width="1169" height="1782" frameX="-156" frameY="-5" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0010" x="0" y="1787" width="1169" height="1782" frameX="-156" frameY="-5" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0011" x="0" y="1787" width="1169" height="1782" frameX="-156" frameY="-5" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0012" x="0" y="1787" width="1169" height="1782" frameX="-156" frameY="-5" frameWidth="1337" frameHeight="1787"/>
+	<SubTexture name="Idle0013" x="0" y="1787" width="1169" height="1782" frameX="-156" frameY="-5" frameWidth="1337" frameHeight="1787"/>
+</TextureAtlas>

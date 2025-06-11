@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SuperCybershell.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="shellTransform0000" x="222" y="161" width="30" height="44" frameX="-5" frameY="-7" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellTransform0001" x="189" y="54" width="33" height="54" frameX="-3" frameY="-1" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellTransform0002" x="37" y="105" width="33" height="54" frameX="-3" frameY="-1" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellTransform0003" x="136" y="105" width="33" height="54" frameX="-3" frameY="-1" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellTransform0004" x="103" y="105" width="33" height="54" frameX="-3" frameY="-1" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellTransform0005" x="189" y="0" width="33" height="54" frameX="-3" frameY="-1" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellTransform0006" x="222" y="0" width="30" height="54" frameX="-3" frameY="-2" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellTransform0007" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellIdle0000" x="252" y="108" width="28" height="53" frameX="-4" frameY="-7" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellIdle0001" x="252" y="54" width="28" height="54" frameX="-4" frameY="-4" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellIdle0002" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellIdle0003" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellIdle0004" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellIdle0005" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellIdle0006" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellIdle0007" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellLeft0000" x="0" y="54" width="40" height="51" frameX="2" frameY="-2" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellLeft0001" x="115" y="55" width="37" height="50" frameX="0" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellLeft0002" x="152" y="54" width="37" height="50" frameX="0" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellLeft0003" x="152" y="54" width="37" height="50" frameX="0" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellLeft0004" x="152" y="54" width="37" height="50" frameX="0" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellLeft0005" x="0" y="159" width="32" height="53" frameX="-2" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellLeft0006" x="252" y="0" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellLeft0007" x="252" y="0" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellDown0000" x="0" y="0" width="39" height="54" frameX="-3" frameY="-10" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellDown0001" x="0" y="105" width="37" height="54" frameX="-3" frameY="-7" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellDown0002" x="152" y="0" width="37" height="54" frameX="-3" frameY="-7" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellDown0003" x="152" y="0" width="37" height="54" frameX="-3" frameY="-7" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellDown0004" x="152" y="0" width="37" height="54" frameX="-3" frameY="-7" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellDown0005" x="70" y="105" width="33" height="54" frameX="-1" frameY="-5" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellDown0006" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellDown0007" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellUp0000" x="115" y="0" width="37" height="55" frameX="0" frameY="2" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellUp0001" x="103" y="105" width="33" height="54" frameX="-3" frameY="-1" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellUp0002" x="189" y="0" width="33" height="54" frameX="-3" frameY="-1" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellUp0003" x="189" y="0" width="33" height="54" frameX="-3" frameY="-1" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellUp0004" x="189" y="0" width="33" height="54" frameX="-3" frameY="-1" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellUp0005" x="222" y="0" width="30" height="54" frameX="-3" frameY="-2" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellUp0006" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellUp0007" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellRight0000" x="40" y="54" width="38" height="51" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellRight0001" x="39" y="0" width="38" height="54" frameX="1" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellRight0002" x="77" y="0" width="38" height="54" frameX="1" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellRight0003" x="77" y="0" width="38" height="54" frameX="1" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellRight0004" x="77" y="0" width="38" height="54" frameX="1" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellRight0005" x="222" y="54" width="30" height="53" frameX="-4" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellRight0006" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+	<SubTexture name="shellRight0007" x="222" y="107" width="29" height="54" frameX="-3" frameY="-3" frameWidth="40" frameHeight="62"/>
+</TextureAtlas>

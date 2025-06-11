@@ -1,0 +1,44 @@
+{
+	"storyName": "mostly unchanged from v4 lol",
+	"difficulties": "Added in SNF V4",
+	"hideFreeplay": false,
+	"weekBackground": "mc",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Knights Trouble Afoot!",
+			"sansandpump",
+			[
+				34,
+				51,
+				68
+			]
+		],
+		[
+			"Sans",
+			"sansandpump",
+			[
+				34,
+				51,
+				68
+			]
+		],
+		[
+			"RevengeSpook",
+			"sansandpump",
+			[
+				34,
+				51,
+				68
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"snp",
+		"breezie",
+		"ralsei"
+	],
+	"weekName": "Side-Story 1"
+}

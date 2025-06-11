@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [112, -230],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [90, -233],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [91, -152],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [90, -230],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [96, -230],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "Oops",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [457, -227],
+			"anim": "hey",
+			"fps": 24,
+			"name": "i am confusion",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [83, -402],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "BREEZIE_D1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [84, -400],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "BREEZIE_D2",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [75, -408],
+			"anim": "sad",
+			"fps": 24,
+			"name": "BREEZIE_Oops",
+			"indices": []
+		}
+	],
+	"vocals_file": "breezie",
+	"no_antialiasing": false,
+	"image": "characters/BreezieFuckle",
+	"position": [160, -295],
+	"healthicon": "breeziegf",
+	"flip_x": false,
+	"healthbar_colors": [128, 201, 158],
+	"camera_position": [110, 300],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": false
+}

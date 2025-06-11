@@ -1,0 +1,9 @@
+{
+	"idle_anim": "BF idle dance",
+	"antialiasing": true,
+	"confirm_anim": "BF HEY!!",
+	"position": [122, -40],
+	"scale": 0.5,
+	"flipX": false,
+	"image": "sanic"
+}

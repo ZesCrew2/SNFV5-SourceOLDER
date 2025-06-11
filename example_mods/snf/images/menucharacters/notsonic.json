@@ -1,0 +1,9 @@
+{
+	"confirm_anim": "BF HEY!!",
+	"antialiasing": true,
+	"idle_anim": "BF idle dance",
+	"position": [-29, -30],
+	"scale": 0.55,
+	"image": "BOYFRIEND",
+	"flipX": true
+}

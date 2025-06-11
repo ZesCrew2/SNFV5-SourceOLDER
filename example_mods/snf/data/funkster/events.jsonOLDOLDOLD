@@ -1,0 +1,286 @@
+{
+	"events": [
+		[
+			0,
+			[
+				["RalZoom-setZoom", "game", "0.7/2/quintOut"]
+			]
+		],
+		[
+			6403.50877192982,
+			[
+				["", "show warning", "true"]
+			]
+		],
+		[
+			10526.3157894737,
+			[
+				["", "show warning", "false"]
+			]
+		],
+		[
+			11228.0701754386,
+			[
+				["RalZoom-setBumping", "", "2"]
+			]
+		],
+		[
+			16842.1052631579,
+			[
+				["RalZoom-setBumping", "", "1"]
+			]
+		],
+		[
+			19649.1228070175,
+			[
+				["RalZoom-setBumping", "0", ""],
+				["RalZoom-setZoom", "game", "0.8/2/expoOut"],
+				["RalZoom-setBumping", "0", ""]
+			]
+		],
+		[
+			19649.1228070175,
+			[
+				["Add Camera Zoom", "", ""]
+			]
+		],
+		[
+			19824.5614035088,
+			[
+				["Add Camera Zoom", "", ""]
+			]
+		],
+		[
+			20000,
+			[
+				["Add Camera Zoom", "", ""]
+			]
+		],
+		[
+			20175.4385964912,
+			[
+				["Add Camera Zoom", "", ""]
+			]
+		],
+		[
+			20350.8771929825,
+			[
+				["Add Camera Zoom", "", ""]
+			]
+		],
+		[
+			20526.3157894737,
+			[
+				["Add Camera Zoom", "", ""]
+			]
+		],
+		[
+			20701.7543859649,
+			[
+				["Add Camera Zoom", "", ""]
+			]
+		],
+		[
+			20877.1929824561,
+			[
+				["Add Camera Zoom", "", ""]
+			]
+		],
+		[
+			21052.6315789474,
+			[
+				["RalZoom-setZoom", "game", "0.9/1/quintOut"]
+			]
+		],
+		[
+			21754.3859649123,
+			[
+				["Change Character", "dad", "breitbart"]
+			]
+		],
+		[
+			22456.1403508772,
+			[
+				["RalZoom-setBumping", "", "1"],
+				["RalZoom-setZoom", "game", "0.7/2/quintOut"]
+			]
+		],
+		[
+			25263.1578947368,
+			[
+				["RalZoom-setZoom", "game", "0.75/1.4/quintOut"]
+			]
+		],
+		[
+			28070.1754385965,
+			[
+				["RalZoom-setZoom", "game", "0.7/1.4/quintOut"]
+			]
+		],
+		[
+			30877.1929824561,
+			[
+				["RalZoom-setZoom", "game", "0.75/1.4/quintOut"]
+			]
+		],
+		[
+			33684.2105263158,
+			[
+				["RalZoom-setZoom", "game", "0.7/1.4/quintOut"]
+			]
+		],
+		[
+			36491.2280701754,
+			[
+				["RalZoom-setZoom", "game", "0.75/1.4/quintOut"]
+			]
+		],
+		[
+			37894.7368421053,
+			[
+				["RalZoom-setZoom", "game", "0.85/0.00000000001/quintOut"]
+			]
+		],
+		[
+			38070.1754385965,
+			[
+				["RalZoom-setZoom", "game", "0.95/0.00000000001/quintOut"]
+			]
+		],
+		[
+			38245.6140350877,
+			[
+				["RalZoom-setZoom", "game", "1.5/0.00000000001/quintOut"]
+			]
+		],
+		[
+			38421.0526315789,
+			[
+				["RalZoom-setZoom", "game", "0.7/2/quintOut"]
+			]
+		],
+		[
+			43508.7719298246,
+			[
+				["RalZoom-setZoom", "game", "0.85/0.00000000001/quintOut"]
+			]
+		],
+		[
+			43684.2105263158,
+			[
+				["RalZoom-setZoom", "game", "0.95/0.00000000001/quintOut"]
+			]
+		],
+		[
+			43859.649122807,
+			[
+				["RalZoom-setZoom", "game", "1.5/0.00000000001/quintOut"]
+			]
+		],
+		[
+			44035.0877192982,
+			[
+				["RalZoom-setZoom", "game", "0.7/2/quintOut"]
+			]
+		],
+		[
+			60350.8771929825,
+			[
+				["RalZoom-setZoom", "game", "0.8/1.4/quintOut"]
+			]
+		],
+		[
+			61403.5087719298,
+			[
+				["RalZoom-setZoom", "game", "1.25/0.000001/quintOut"]
+			]
+		],
+		[
+			61754.3859649123,
+			[
+				["RalZoom-setZoom", "game", "0.7/2/quintIn"]
+			]
+		],
+		[
+			64561.4035087719,
+			[
+				["RalZoom-setZoom", "game", "0.8/1.5/quintOut"]
+			]
+		],
+		[
+			67368.4210526316,
+			[
+				["RalZoom-setZoom", "game", "0.7/1.5/quintOut"]
+			]
+		],
+		[
+			70175.4385964912,
+			[
+				["RalZoom-setZoom", "game", "0.8/1.5/quintOut"]
+			]
+		],
+		[
+			72982.4561403509,
+			[
+				["RalZoom-setZoom", "game", "0.7/1.5/quintOut"]
+			]
+		],
+		[
+			75789.4736842106,
+			[
+				["RalZoom-setZoom", "game", "0.9/0.8/quintOut"]
+			]
+		],
+		[
+			77192.9824561404,
+			[
+				["RalZoom-setZoom", "game", "0.7/1.5/quintOut"]
+			]
+		],
+		[
+			81403.5087719299,
+			[
+				["RalZoom-setZoom", "game", "0.8/1.5/quintOut"]
+			]
+		],
+		[
+			84210.5263157896,
+			[
+				["RalZoom-setZoom", "game", "0.7/1.5/quintOut"]
+			]
+		],
+		[
+			87017.5438596492,
+			[
+				["RalZoom-setZoom", "game", "0.8/1.5/quintOut"]
+			]
+		],
+		[
+			89824.5614035089,
+			[
+				["RalZoom-setZoom", "game", "0.7/1.5/quintOut"]
+			]
+		],
+		[
+			92631.5789473685,
+			[
+				["RalZoom-setZoom", "game", "0.8/1.5/quintOut"]
+			]
+		],
+		[
+			95438.5964912282,
+			[
+				["RalZoom-setZoom", "game", "0.9/1.5/quintOut"],
+				["RalZoom-setBumping", "", "2"]
+			]
+		],
+		[
+			106666.666666667,
+			[
+				["RalZoom-setZoom", "game", "1.0/0.5/quintOut"],
+				["RalZoom-setBumping", "", "4"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

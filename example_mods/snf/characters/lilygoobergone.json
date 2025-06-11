@@ -1,0 +1,71 @@
+{
+	"animations": [
+		{
+			"offsets": [112, 131],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [112, 131],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"loop": false,
+			"offsets": [112, 131],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [112, 131],
+			"anim": "Pissed",
+			"fps": 24,
+			"name": "AltIdle",
+			"indices": []
+		},
+		{
+			"offsets": [112, 131],
+			"loop": true,
+			"fps": 24,
+			"anim": "Nope",
+			"indices": [],
+			"name": "Nope"
+		},
+		{
+			"offsets": [112, 131],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [112, 131],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Left"
+		}
+	],
+	"vocals_file": "lilygoober",
+	"no_antialiasing": false,
+	"image": "characters/lilygoobergone",
+	"position": [106, 757],
+	"healthicon": "lilygoober",
+	"flip_x": true,
+	"healthbar_colors": [255, 184, 106],
+	"camera_position": [-330, -410],
+	"sing_duration": 6.1,
+	"scale": 4.6,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,36 @@
+{
+	"song": {
+		"events": [
+			[
+				7333.33333333333,
+				[
+					[
+						"Play Animation",
+						"hedgehog",
+						"BF"
+					]
+				]
+			],
+			[
+				41333.3333333333,
+				[
+					[
+						"Play Animation",
+						"missUp",
+						"Sonic"
+					]
+				]
+			],
+			[
+				49500,
+				[
+					[
+						"Play Animation",
+						"firstDeath",
+						"BF"
+					]
+				]
+			]
+		]
+	}
+}

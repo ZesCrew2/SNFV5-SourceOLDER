@@ -1,0 +1,26 @@
+{
+	"storyName": "Friend or Foe...moNGUS???",
+	"difficulties": "Added in SNF V5",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"picopostor",
+		"sonic",
+		"breeziegf"
+	],
+	"songs": [
+		[
+			"picotest",
+			"picopostor",
+			[
+				253,
+				128,
+				33
+			]
+		]
+	],
+	"weekName": "picotest"
+}

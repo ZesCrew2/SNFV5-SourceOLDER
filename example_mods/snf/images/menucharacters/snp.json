@@ -1,0 +1,9 @@
+{
+	"confirm_anim": "spooky dance idle",
+	"antialiasing": true,
+	"idle_anim": "spooky dance idle",
+	"position": [62, 70],
+	"scale": 0.55,
+	"image": "spooky_kids_assets",
+	"flipX": false
+}

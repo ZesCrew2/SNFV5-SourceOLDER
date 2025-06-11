@@ -1,0 +1,9 @@
+{
+	"confirm_anim": "Hey",
+	"antialiasing": true,
+	"idle_anim": "Idle",
+	"position": [102, -100],
+	"scale": 0.55,
+	"image": "sonic2025",
+	"flipX": false
+}

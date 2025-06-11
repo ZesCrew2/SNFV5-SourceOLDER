@@ -1,0 +1,9 @@
+{
+	"idle_anim": "Idle",
+	"antialiasing": true,
+	"confirm_anim": "Idle",
+	"position": [-248, -240],
+	"scale": 1.6,
+	"flipX": false,
+	"image": "circleprisoner"
+}

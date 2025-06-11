@@ -1,0 +1,44 @@
+{
+	"storyName": "hot dog, french fries, the skeletons are now alive!!",
+	"difficulties": "Added in SNF V1",
+	"hideFreeplay": false,
+	"weekBackground": "mc",
+	"weekBefore": "week1",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"snp",
+		"breezie",
+		"sonic"
+	],
+	"songs": [
+		[
+			"Abnormal Night",
+			"sansandpump",
+			[
+				34,
+				51,
+				68
+			]
+		],
+		[
+			"Spooky Fight",
+			"sansskidanddemonpump",
+			[
+				34,
+				51,
+				68
+			]
+		],
+		[
+			"Stained Mask",
+			"dream",
+			[
+				182,
+				255,
+				0
+			]
+		]
+	],
+	"weekName": "Week 2"
+}

@@ -1,0 +1,39 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [37, -3],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "BF Dead Loop",
+			"indices": []
+		},
+		{
+			"offsets": [37, 28],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "BF Dead confirm"
+		},
+		{
+			"offsets": [37, 14],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "BF dies"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/snoc-old",
+	"position": [0, 350],
+	"healthicon": "sonic",
+	"flip_x": true,
+	"healthbar_colors": [0, 150, 253],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 1.05,
+	"_editor_isPlayer": true
+}

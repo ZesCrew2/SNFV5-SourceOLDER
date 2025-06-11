@@ -1,0 +1,3 @@
+Value 1: fade or an image name 
+Value 2: how long it's there for
+-for jelly yet again-

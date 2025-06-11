@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="milo.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="0" y="0" width="550" height="680" frameX="0" frameY="-7" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0001" x="0" y="0" width="550" height="680" frameX="0" frameY="-7" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0002" x="550" y="0" width="545" height="684" frameX="-6" frameY="-3" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0003" x="550" y="0" width="545" height="684" frameX="-6" frameY="-3" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0004" x="1095" y="0" width="541" height="686" frameX="-8" frameY="-1" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0005" x="1095" y="0" width="541" height="686" frameX="-8" frameY="-1" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0006" x="0" y="686" width="539" height="687" frameX="-9" frameY="0" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0007" x="0" y="686" width="539" height="687" frameX="-9" frameY="0" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0008" x="539" y="686" width="559" height="687" frameX="-9" frameY="0" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0009" x="539" y="686" width="559" height="687" frameX="-9" frameY="0" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0010" x="1098" y="686" width="553" height="687" frameX="-9" frameY="0" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0011" x="1098" y="686" width="553" height="687" frameX="-9" frameY="0" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0012" x="0" y="1373" width="548" height="687" frameX="-9" frameY="0" frameWidth="568" frameHeight="687"/>
+	<SubTexture name="Idle0013" x="0" y="1373" width="548" height="687" frameX="-9" frameY="0" frameWidth="568" frameHeight="687"/>
+</TextureAtlas>

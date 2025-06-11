@@ -1,0 +1,45 @@
+{
+	"storyName": "The Creator",
+	"difficulties": "Added in SNF V5",
+	"hideFreeplay": false,
+	"weekBackground": "plains",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Cube",
+			"lily",
+			[
+				255,
+				186,
+				107
+			]
+		],
+		[
+			"Lilypad",
+			"lily",
+			[
+				255,
+				186,
+				107
+			]
+		],
+		[
+			"Throwback",
+			"lily",
+			[
+				255,
+				186,
+				107
+			]
+		]
+	],
+	"weekCharacters": [
+		"lily",
+		"breezie2",
+		"sonic2025"
+	],
+	"hideStoryMode": false,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Week 8"
+}

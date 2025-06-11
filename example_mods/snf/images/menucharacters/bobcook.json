@@ -1,0 +1,9 @@
+{
+	"confirm_anim": "bobcook idle",
+	"antialiasing": true,
+	"idle_anim": "bobcook idle",
+	"position": [10, 100],
+	"scale": 0.55,
+	"image": "bobcook",
+	"flipX": true
+}

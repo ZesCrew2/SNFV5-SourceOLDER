@@ -1,0 +1,233 @@
+{
+	"player1": "snfsonicv1",
+	"gfVersion": "oldbreeziegf",
+	"notes": [
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 150,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 150,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 240,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 240,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 240,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 240,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 240,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 240,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 240,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 240,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 240,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionNotes": [],
+			"typeOfSection": 0,
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"changeBPM": false,
+			"bpm": 240,
+			"mustHitSection": false
+		},
+		{
+			"sectionNotes": [],
+			"typeOfSection": 0,
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"changeBPM": false,
+			"bpm": 240,
+			"mustHitSection": false
+		},
+		{
+			"sectionNotes": [],
+			"typeOfSection": 0,
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"changeBPM": false,
+			"bpm": 240,
+			"mustHitSection": false
+		},
+		{
+			"sectionNotes": [],
+			"typeOfSection": 0,
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"changeBPM": false,
+			"bpm": 240,
+			"mustHitSection": false
+		},
+		{
+			"sectionNotes": [],
+			"typeOfSection": 0,
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"changeBPM": false,
+			"bpm": 240,
+			"mustHitSection": false
+		},
+		{
+			"sectionNotes": [],
+			"typeOfSection": 0,
+			"sectionBeats": 4,
+			"gfSection": false,
+			"altAnim": false,
+			"changeBPM": false,
+			"bpm": 240,
+			"mustHitSection": false
+		},
+		{
+			"gfSection": false,
+			"altAnim": false,
+			"sectionNotes": [],
+			"bpm": 113,
+			"sectionBeats": 4,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"gfSection": false,
+			"altAnim": false,
+			"sectionNotes": [],
+			"bpm": 120,
+			"sectionBeats": 4,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"gfSection": false,
+			"altAnim": false,
+			"sectionNotes": [],
+			"bpm": 126,
+			"sectionBeats": 4,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"gfSection": false,
+			"altAnim": false,
+			"sectionNotes": [],
+			"bpm": 133,
+			"sectionBeats": 4,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"gfSection": false,
+			"altAnim": false,
+			"sectionNotes": [],
+			"bpm": 139,
+			"sectionBeats": 4,
+			"changeBPM": false,
+			"mustHitSection": false
+		}
+	],
+	"events": [],
+	"player2": "picopostor",
+	"player3": null,
+	"splashSkin": "noteSplashes",
+	"song": "dudebro",
+	"needsVoices": true,
+	"arrowSkin": "",
+	"validScore": true,
+	"stage": "philly",
+	"bpm": 142,
+	"speed": 2.4,
+	"format": "psych_v1_convert"
+}

@@ -1,0 +1,50 @@
+{
+	"storyName": "Your One-Stop Shop to Funkin' Mastery",
+	"difficulties": "Added in SNF V1",
+	"hideFreeplay": false,
+	"weekBackground": "ghz",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Fresh Kicks",
+			"kkslider",
+			[
+				228,
+				206,
+				251
+			]
+		],
+		[
+			"Festival",
+			"kkslider",
+			[
+				228,
+				206,
+				251
+			]
+		],
+		[
+			"Funk Mastery",
+			"kkslider",
+			[
+				228,
+				206,
+				251
+			]
+		]
+	],
+	"weekCharacters": [
+		"kkslider",
+		"breezie",
+		"sonic"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Week 1"
+}

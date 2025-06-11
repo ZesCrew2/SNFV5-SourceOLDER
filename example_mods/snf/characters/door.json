@@ -1,0 +1,31 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [673, 668],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [749, 687],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "AltIdle",
+			"indices": []
+		}
+	],
+	"vocals_file": "syngoober",
+	"no_antialiasing": false,
+	"image": "characters/DOOR",
+	"position": [216, 707],
+	"healthicon": "door",
+	"flip_x": false,
+	"healthbar_colors": [44, 31, 51],
+	"camera_position": [180, -410],
+	"sing_duration": 6.1,
+	"scale": 0.6,
+	"_editor_isPlayer": false
+}

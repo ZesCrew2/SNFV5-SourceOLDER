@@ -1,0 +1,71 @@
+{
+	"animations": [
+		{
+			"offsets": [252, 291],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [252, 291],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [252, 291],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [252, 291],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"loop": false,
+			"offsets": [252, 291],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [252, 291],
+			"anim": "Silly",
+			"fps": 24,
+			"name": "Silly",
+			"indices": []
+		},
+		{
+			"offsets": [572, 601],
+			"indices": [],
+			"fps": 16,
+			"anim": "hey",
+			"loop": false,
+			"name": "syngoober3 hey0"
+		}
+	],
+	"vocals_file": "syngoober",
+	"no_antialiasing": false,
+	"image": "characters/syngoober3",
+	"position": [86, 837],
+	"healthicon": "syngooberflip",
+	"flip_x": true,
+	"healthbar_colors": [59, 168, 244],
+	"camera_position": [960, -700],
+	"sing_duration": 6.1,
+	"scale": 3,
+	"_editor_isPlayer": true
+}
