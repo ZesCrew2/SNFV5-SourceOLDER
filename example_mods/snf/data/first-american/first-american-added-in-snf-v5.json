@@ -1,5 +1,5 @@
 {
-	"player1": "syngoober-america",
+	"player1": "hbomberguy",
 	"player2": "tommy",
 	"events": [],
 	"notes": [
@@ -1430,7 +1430,7 @@
 	"gfVersion": "nobitches",
 	"offset": 0,
 	"song": "First American",
-	"stage": "tutorialghz",
+	"stage": "hbombstage",
 	"needsVoices": true,
 	"format": "psych_v1",
 	"speed": 2.8,
