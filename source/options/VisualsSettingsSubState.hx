@@ -2,32 +2,38 @@ package options;
 
 import objects.Note;
 import objects.StrumNote;
+import objects.NoteSplash;
 import objects.Alphabet;
 
 class VisualsSettingsSubState extends BaseOptionsMenu
 {
 	var noteOptionID:Int = -1;
 	var notes:FlxTypedGroup<StrumNote>;
-	var notesTween:Array<FlxTween> = [];
+	var splashes:FlxTypedGroup<NoteSplash>;
 	var noteY:Float = 90;
 	public function new()
 	{
 		title = Language.getPhrase('visuals_menu', 'Visuals Settings');
 		rpcTitle = 'Visuals Settings Menu'; //for Discord Rich Presence
 
-		// for note skins
+		// for note skins and splash skins
 		notes = new FlxTypedGroup<StrumNote>();
+		splashes = new FlxTypedGroup<NoteSplash>();
 		for (i in 0...Note.colArray.length)
 		{
 			var note:StrumNote = new StrumNote(370 + (560 / Note.colArray.length) * i, -200, i, 0);
-			note.centerOffsets();
-			note.centerOrigin();
-			note.playAnim('static');
+			changeNoteSkin(note);
 			notes.add(note);
+			
+			var splash:NoteSplash = new NoteSplash(0, 0, NoteSplash.defaultNoteSplash + NoteSplash.getSplashSkinPostfix());
+			splash.inEditor = true;
+			splash.babyArrow = note;
+			splash.ID = i;
+			splash.kill();
+			splashes.add(splash);
 		}
 
 		// options
-
 		var noteSkins:Array<String> = Mods.mergeAllTextsNamed('images/noteSkins/list.txt');
 		if(noteSkins.length > 0)
 		{
@@ -53,11 +59,12 @@ class VisualsSettingsSubState extends BaseOptionsMenu
 
 			noteSplashes.insert(0, ClientPrefs.defaultData.splashSkin); //Default skin always comes first
 			var option:Option = new Option('Note Splashes:',
-				"Select your prefered Note Splash variation or turn it off.",
+				"Select your prefered Note Splash variation.",
 				'splashSkin',
 				STRING,
 				noteSplashes);
 			addOption(option);
+			option.onChange = onChangeSplashSkin;
 		}
 
 		var option:Option = new Option('Note Splash Opacity',
@@ -70,6 +77,7 @@ class VisualsSettingsSubState extends BaseOptionsMenu
 		option.changeValue = 0.1;
 		option.decimals = 1;
 		addOption(option);
+		option.onChange = playNoteSplashes;
 
 		var option:Option = new Option('Hide HUD',
 			'If checked, hides most HUD elements.',
@@ -154,22 +162,38 @@ class VisualsSettingsSubState extends BaseOptionsMenu
 
 		super();
 		add(notes);
+		add(splashes);
 	}
 
+	var notesShown:Bool = false;
 	override function changeSelection(change:Int = 0)
 	{
 		super.changeSelection(change);
 		
-		if(noteOptionID < 0) return;
-
-		for (i in 0...Note.colArray.length)
+		switch(curOption.variable)
 		{
-			var note:StrumNote = notes.members[i];
-			if(notesTween[i] != null) notesTween[i].cancel();
-			if(curSelected == noteOptionID)
-				notesTween[i] = FlxTween.tween(note, {y: noteY}, Math.abs(note.y / (200 + noteY)) / 3, {ease: FlxEase.quadInOut});
-			else
-				notesTween[i] = FlxTween.tween(note, {y: -200}, Math.abs(note.y / (200 + noteY)) / 3, {ease: FlxEase.quadInOut});
+			case 'noteSkin', 'splashSkin', 'splashAlpha':
+				if(!notesShown)
+				{
+					for (note in notes.members)
+					{
+						FlxTween.cancelTweensOf(note);
+						FlxTween.tween(note, {y: noteY}, Math.abs(note.y / (200 + noteY)) / 3, {ease: FlxEase.quadInOut});
+					}
+				}
+				notesShown = true;
+				if(curOption.variable.startsWith('splash') && Math.abs(notes.members[0].y - noteY) < 25) playNoteSplashes();
+
+			default:
+				if(notesShown) 
+				{
+					for (note in notes.members)
+					{
+						FlxTween.cancelTweensOf(note);
+						FlxTween.tween(note, {y: -200}, Math.abs(note.y / (200 + noteY)) / 3, {ease: FlxEase.quadInOut});
+					}
+				}
+				notesShown = false;
 		}
 	}
 
@@ -204,9 +228,62 @@ class VisualsSettingsSubState extends BaseOptionsMenu
 		note.playAnim('static');
 	}
 
+	function onChangeSplashSkin()
+	{
+		var skin:String = NoteSplash.defaultNoteSplash + NoteSplash.getSplashSkinPostfix();
+		for (splash in splashes)
+			splash.loadSplash(skin);
+
+		playNoteSplashes();
+	}
+
+	function playNoteSplashes()
+	{
+		var rand:Int = 0;
+		if (splashes.members[0] != null && splashes.members[0].maxAnims > 1)
+			rand = FlxG.random.int(0, splashes.members[0].maxAnims - 1); // For playing the same random animation on all 4 splashes
+
+		for (splash in splashes)
+		{
+			splash.revive();
+
+			splash.spawnSplashNote(0, 0, splash.ID, null, false);
+			if (splash.maxAnims > 1)
+				splash.noteData = splash.noteData % Note.colArray.length + (rand * Note.colArray.length);
+
+			var anim:String = splash.playDefaultAnim();
+			var conf = splash.config.animations.get(anim);
+			var offsets:Array<Float> = [0, 0];
+
+			var minFps:Int = 22;
+			var maxFps:Int = 26;
+			if (conf != null)
+			{
+				offsets = conf.offsets;
+
+				minFps = conf.fps[0];
+				if (minFps < 0) minFps = 0;
+
+				maxFps = conf.fps[1];
+				if (maxFps < 0) maxFps = 0;
+			}
+
+			splash.offset.set(10, 10);
+			if (offsets != null)
+			{
+				splash.offset.x += offsets[0];
+				splash.offset.y += offsets[1];
+			}
+
+			if (splash.animation.curAnim != null)
+				splash.animation.curAnim.frameRate = FlxG.random.int(minFps, maxFps);
+		}
+	}
+
 	override function destroy()
 	{
 		if(changedMusic && !OptionsState.onPlayState) FlxG.sound.playMusic(Paths.music('freakyMenu'), 1, true);
+		Note.globalRgbShaders = [];
 		super.destroy();
 	}
 
