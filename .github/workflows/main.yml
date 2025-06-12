@@ -64,6 +64,7 @@ jobs:
         run: |
           haxelib setup C:/haxelib
           haxelib install hxcpp > /dev/null --quiet
+          haxelib run lime rebuild cpp
           .\"setup/windows.bat"
         shell: cmd
       - name: Skip SScript setup mode
