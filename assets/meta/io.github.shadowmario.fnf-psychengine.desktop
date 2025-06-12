@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-Name=PsychEngine
-Comment=A moddable desktop port of Friday Night Funkin'
+Name=Sonic Night Funkin'
+Comment=A somewhat Sonic themed mod for Friday Night Funkin'
 Icon=io.github.shadowmario.fnf-psychengine
-Exec=PsychEngine
+Exec=SNFV5
 Categories=Game
