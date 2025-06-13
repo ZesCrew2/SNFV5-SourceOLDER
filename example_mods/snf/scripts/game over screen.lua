@@ -21,8 +21,56 @@ end
 finishedGameOverLine = true
 
 gameOverRetry = false
-songNameHere = 'gamla' -- MUST BE THE SAME AS THE EXACT DATA FOLDER NAME. Because it needs for the pause menu to be disabled. Damn it man, boooooooooo!!!!!!!!!
-
+allSongs = { -- ADD THE SONGS HERE IN CASE IF IT GETS ADDED!!!! (- Herox/Arie Temps, as of June 12th, 2025. 10:49 PM)
+'2am',
+'a-fun-time-old',
+'a-fun-time',
+'abnormal-night',
+'big-chicken',
+'blasted-hedgehog',
+'cube',
+'disagreement-snf-mix',
+'dithering-dingbots',
+'dudebro',
+'false-mirror',
+'festival',
+'final-demo',
+'first-american',
+'fuckleknuckle',
+'funk-mastery',
+'funkster',
+'gamla',
+'gangstache',
+'gem-collector',
+'hillside',
+'i-can-haz-torrentz',
+'joke-song',
+'knights-trouble-afoot',
+'knuckleheaded',
+'lilypad',
+'mental-fire',
+'midnight-muffle',
+'muckle',
+'netlore',
+'p1r4cy',
+'peak-hill',
+'predecessor',
+'re-rocked',
+'rhythm-helper',
+'robotnik-rock',
+'robotnik_ii',
+'sandopolis',
+'sans',
+'something-awful',
+'spooky-fight',
+'stained-mask',
+'stamps',
+'susiivo',
+'suspicious-activity',
+'throwback',
+'vote-this',
+'mama-coco-night-funkin-v5',
+}
 function onCreate()
 addCharacterToList('bf-dead', 'boyfriend')
 addCharacterToList('oldrestartmonitor', 'boyfriend')
@@ -41,7 +89,9 @@ end
 			
 			elseif getHealth() <= 0.0001 then
 			setProperty('health', 0.001)
-			removeLuaScript("data/"..songNameHere.."/oh that must be them.lua")
+			for _,v in ipairs(allSongs) do
+			removeLuaScript("data/"..v.."/oh that must be them.lua")
+			end
 			stopSong = true
 			canPause = false
 			canEnd = false
@@ -96,7 +146,9 @@ end
 			
 			elseif getHealth() <= 0.0001 then
 			setProperty('health', 0.001)
-			removeLuaScript("data/"..songNameHere.."/oh that must be them.lua")
+			for _,v in ipairs(allSongs) do
+			removeLuaScript("data/"..v.."/oh that must be them.lua")
+			end
 			stopSong = true
 			canPause = false
 			canEnd = false
