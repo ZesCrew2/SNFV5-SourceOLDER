@@ -189,7 +189,7 @@
 
 	<!-- _________________________________ Custom _______________________________ -->
 
-	<assets path='art/icons/iconOG.png' rename='icon.png' if="linux || mac" />
+	<assets path='art/iconOG.png' rename='icon.png' if="linux || mac" />
 	
 	<icon path="art/icon16.png" size='16'/>
 	<icon path="art/icon32.png" size='32'/>
