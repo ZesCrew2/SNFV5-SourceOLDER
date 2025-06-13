@@ -140,22 +140,20 @@ class ControlsSubState extends MusicBeatSubstate
 					var str:String = option[1];
 					var keyStr:String = option[2];
 					if(isDefaultKey) str = Language.getPhrase(str);
-					var text:Alphabet = new Alphabet(475, 300, !isDisplayKey ? Language.getPhrase('key_$keyStr', str) : Language.getPhrase('keygroup_$str', str), !isDisplayKey);
+					var text:Alphabet = new Alphabet(200, 300, !isDisplayKey ? Language.getPhrase('key_$keyStr', str) : Language.getPhrase('keygroup_$str', str), !isDisplayKey);
 					text.isMenuItem = true;
 					text.changeX = false;
 					text.distancePerItem.y = 60;
 					text.targetY = myID;
-					text.ID = myID;
-					lastID = myID;
-
-					if(!isDisplayKey)
-					{
-						text.alignment = RIGHT;
+					if(isDisplayKey)
+						grpDisplay.add(text);
+					else {
 						grpOptions.add(text);
 						curOptions.push(i);
 						curOptionsValid.push(myID);
 					}
-					else grpDisplay.add(text);
+					text.ID = myID;
+					lastID = myID;
 
 					if(isCentered) addCenteredText(text, option, myID);
 					else addKeyText(text, option, myID);
@@ -171,7 +169,6 @@ class ControlsSubState extends MusicBeatSubstate
 
 	function addCenteredText(text:Alphabet, option:Array<Dynamic>, id:Int)
 	{
-		text.alignment = LEFT;
 		text.screenCenter(X);
 		text.y -= 55;
 		text.startPosition.y -= 55;
@@ -188,13 +185,15 @@ class ControlsSubState extends MusicBeatSubstate
 
 		for (n in 0...2)
 		{
+			var textX:Float = 350 + n * 300;
+
 			var key:String = null;
 			if(onKeyboardMode)
 				key = InputFormatter.getKeyName((keys[n] != null) ? keys[n] : NONE);
 			else
 				key = InputFormatter.getGamepadName((gmpds[n] != null) ? gmpds[n] : NONE);
 
-			var attach:Alphabet = new Alphabet(560 + n * 300, 248, key, false);
+			var attach:Alphabet = new Alphabet(textX + 210, 248, key, false);
 			attach.isMenuItem = true;
 			attach.changeX = false;
 			attach.distancePerItem.y = 60;
@@ -214,7 +213,7 @@ class ControlsSubState extends MusicBeatSubstate
 			black.alphaMult = 0.4;
 			black.sprTracker = text;
 			black.yAdd = -6;
-			black.xAdd = 75 + n * 300;
+			black.xAdd = textX;
 			grpBlacks.add(black);
 		}
 	}

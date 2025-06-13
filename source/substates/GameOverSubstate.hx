@@ -84,7 +84,7 @@ class GameOverSubstate extends MusicBeatSubstate
 		
 		PlayState.instance.setOnScripts('inGameOver', true);
 		PlayState.instance.callOnScripts('onGameOverStart', []);
-		FlxG.sound.music.loadEmbedded(Paths.music(loopSoundName), true);
+		FlxG.sound.music.loadEmbedded(Paths.music(loopSoundName));
 
 		if(characterName == 'pico-dead')
 		{

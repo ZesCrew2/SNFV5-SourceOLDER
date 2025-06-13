@@ -21,6 +21,7 @@ class VideoSprite extends FlxSpriteGroup {
 	private var videoName:String;
 
 	public var waiting:Bool = false;
+	public var didPlay:Bool = false;
 
 	public function new(videoName:String, isWaiting:Bool, canSkip:Bool = false, shouldLoop:Dynamic = false) {
 		super();
@@ -46,7 +47,23 @@ class VideoSprite extends FlxSpriteGroup {
 		if(canSkip) this.canSkip = true;
 
 		// callbacks
-		if(!shouldLoop) videoSprite.bitmap.onEndReached.add(finishVideo);
+		if(!shouldLoop)
+		{
+			videoSprite.bitmap.onEndReached.add(function() {
+				if(alreadyDestroyed) return;
+	
+				trace('Video destroyed');
+				if(cover != null)
+				{
+					remove(cover);
+					cover.destroy();
+				}
+		
+				PlayState.instance.remove(this);
+				destroy();
+				alreadyDestroyed = true;
+			});
+		}
 
 		videoSprite.bitmap.onFormatSetup.add(function()
 		{
@@ -71,7 +88,10 @@ class VideoSprite extends FlxSpriteGroup {
 	override function destroy()
 	{
 		if(alreadyDestroyed)
+		{
+			super.destroy();
 			return;
+		}
 
 		trace('Video destroyed');
 		if(cover != null)
@@ -79,30 +99,13 @@ class VideoSprite extends FlxSpriteGroup {
 			remove(cover);
 			cover.destroy();
 		}
-		
-		finishCallback = null;
+
+		if(finishCallback != null)
+			finishCallback();
 		onSkip = null;
 
-		if(FlxG.state != null)
-		{
-			if(FlxG.state.members.contains(this))
-				FlxG.state.remove(this);
-
-			if(FlxG.state.subState != null && FlxG.state.subState.members.contains(this))
-				FlxG.state.subState.remove(this);
-		}
+		PlayState.instance.remove(this);
 		super.destroy();
-		alreadyDestroyed = true;
-	}
-	function finishVideo()
-	{
-		if (!alreadyDestroyed)
-		{
-			if(finishCallback != null)
-				finishCallback();
-			
-			destroy();
-		}
 	}
 
 	override function update(elapsed:Float)
@@ -124,6 +127,7 @@ class VideoSprite extends FlxSpriteGroup {
 				if(onSkip != null) onSkip();
 				finishCallback = null;
 				videoSprite.bitmap.onEndReached.dispatch();
+				PlayState.instance.remove(this);
 				trace('Skipped video');
 				return;
 			}
@@ -163,7 +167,6 @@ class VideoSprite extends FlxSpriteGroup {
 		skipSprite.alpha = FlxMath.remapToRange(skipSprite.amount, 0.025, 1, 0, 1);
 	}
 
-	public function play() videoSprite?.play();
 	public function resume() videoSprite?.resume();
 	public function pause() videoSprite?.pause();
 	#end
