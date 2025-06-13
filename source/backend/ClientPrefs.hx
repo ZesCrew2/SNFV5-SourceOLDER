@@ -25,12 +25,12 @@ import states.TitleState;
 	public var camZooms:Bool = true;
 	public var hideHud:Bool = false;
 	public var noteOffset:Int = 0;
-	public var arrowRGB:Array<Array<FlxColor>> = [
+	public var arrowRGB:Array<Array<Int>> = [
 		[0xFF0026FF, 0xFFFFFFFF, 0xFFFF00DC],
 		[0xFFFF0000, 0xFFFFFFFF, 0xFFFFD800],
 		[0xFF6DAC4C, 0xFFFFFFFF, 0xFF00FFFF],
 		[0xFF0026FF, 0xFFFFFFFF, 0xFFFF00DC]];
-	public var arrowRGBPixel:Array<Array<FlxColor>> = [
+	public var arrowRGBPixel:Array<Array<Int>> = [
 		[0xFF0026FF, 0xFFFFFFFF, 0xFFFF00DC],
 		[0xFFFF0000, 0xFFFFFFFF, 0xFFFFD800],
 		[0xFF6DAC4C, 0xFFFFFFEF, 0xFF00FFFF],
