@@ -1,7 +1,5 @@
 package backend;
 
-import openfl.utils.Assets;
-
 import haxe.Json;
 
 typedef ModsList = {
@@ -94,15 +92,13 @@ class Mods
 	inline public static function directoriesWithFile(path:String, fileToFind:String, mods:Bool = true)
 	{
 		var foldersToCheck:Array<String> = [];
-		//Main folder
 		if(FileSystem.exists(path + fileToFind))
 			foldersToCheck.push(path + fileToFind);
 
-		// Week folder
 		if(Paths.currentLevel != null && Paths.currentLevel != path)
 		{
 			var pth:String = Paths.getFolderPath(fileToFind, Paths.currentLevel);
-			if(!foldersToCheck.contains(pth) && FileSystem.exists(pth))
+			if(FileSystem.exists(pth))
 				foldersToCheck.push(pth);
 		}
 

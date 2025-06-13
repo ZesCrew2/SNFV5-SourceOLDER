@@ -1,6 +1,7 @@
 package states.editors;
 
 import flixel.graphics.FlxGraphic;
+import flixel.graphics.frames.FlxAtlasFrames;
 
 import flixel.system.debug.interaction.tools.Pointer.GraphicCursorCross;
 import flixel.util.FlxDestroyUtil;
@@ -67,8 +68,7 @@ class CharacterEditorState extends MusicBeatState implements PsychUIEventHandler
 
 	override function create()
 	{
-		Paths.clearStoredMemory();
-		Paths.clearUnusedMemory();
+		if(ClientPrefs.data.cacheOnGPU) Paths.clearStoredMemory();
 
 		FlxG.sound.music.stop();
 		camEditor = initPsychCamera();
@@ -815,7 +815,22 @@ class CharacterEditorState extends MusicBeatState implements PsychUIEventHandler
 		}
 		else
 		{
-			character.frames = Paths.getMultiAtlas(character.imageFile.split(','));
+			var split:Array<String> = character.imageFile.split(',');
+			var charFrames:FlxAtlasFrames = Paths.getAtlas(split[0].trim());
+			
+			if(split.length > 1)
+			{
+				var original:FlxAtlasFrames = charFrames;
+				charFrames = new FlxAtlasFrames(charFrames.parent);
+				charFrames.addAtlas(original, true);
+				for (i in 1...split.length)
+				{
+					var extraFrames:FlxAtlasFrames = Paths.getAtlas(split[i].trim());
+					if(extraFrames != null)
+						charFrames.addAtlas(extraFrames, true);
+				}
+			}
+			character.frames = charFrames;
 		}
 
 		for (anim in anims) {
@@ -1050,6 +1065,7 @@ class CharacterEditorState extends MusicBeatState implements PsychUIEventHandler
 		}
 		else if(FlxG.keys.justPressed.ESCAPE)
 		{
+			FlxG.mouse.visible = false;
 			if(!_goToPlayState)
 			{
 				if(!unsavedProgress)
@@ -1059,11 +1075,7 @@ class CharacterEditorState extends MusicBeatState implements PsychUIEventHandler
 				}
 				else openSubState(new ExitConfirmationPrompt());
 			}
-			else
-			{
-				FlxG.mouse.visible = false;
-				MusicBeatState.switchState(new PlayState());
-			}
+			else MusicBeatState.switchState(new PlayState());
 			return;
 		}
 	}

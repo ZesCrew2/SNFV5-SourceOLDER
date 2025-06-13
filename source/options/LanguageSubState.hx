@@ -1,7 +1,5 @@
 package options;
 
-import openfl.utils.Assets;
-
 class LanguageSubState extends MusicBeatSubstate
 {
 	#if TRANSLATIONS_ALLOWED

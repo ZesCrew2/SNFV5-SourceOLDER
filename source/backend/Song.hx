@@ -113,7 +113,7 @@ class Song
 				var gottaHitNote:Bool = (note[1] < 4) ? section.mustHitSection : !section.mustHitSection;
 				note[1] = (note[1] % 4) + (gottaHitNote ? 0 : 4);
 
-				if(!Std.isOfType(note[3], String))
+				if(note[3] != null && !Std.isOfType(note[3], String))
 					note[3] = Note.defaultNoteTypes[note[3]]; //compatibility with Week 7 and 0.1-0.3 psych charts
 			}
 		}
@@ -126,11 +126,7 @@ class Song
 		if(folder == null) folder = jsonInput;
 		PlayState.SONG = getChart(jsonInput, folder);
 		loadedSongName = folder;
-		chartPath = _lastPath;
-		#if windows
-		// prevent any saving errors by fixing the path on Windows (being the only OS to ever use backslashes instead of forward slashes for paths)
-		chartPath = chartPath.replace('/', '\\');
-		#end
+		chartPath = _lastPath.replace('/', '\\');
 		StageData.loadDirectory(PlayState.SONG);
 		return PlayState.SONG;
 	}
@@ -184,3 +180,7 @@ class Song
 		return songJson;
 	}
 }
+
+/**
+ * TO DO: V-Slice Chart Data here.
+ */
