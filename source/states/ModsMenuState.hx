@@ -60,7 +60,7 @@ class ModsMenuState extends MusicBeatState
 		persistentUpdate = false;
 
 		modsList = Mods.parseList();
-		Mods.loadTopMod();
+		Mods.currentModDirectory = modsList.all[0] != null ? modsList.all[0] : '';
 
 		#if DISCORD_ALLOWED
 		// Updating Discord Rich Presence
@@ -216,13 +216,13 @@ class ModsMenuState extends MusicBeatState
 		button.icon.animation.play('icon', true);
 		add(button);
 		buttons.push(button);
-		
+
 		var button = new MenuButton(buttonsX + 100, buttonsY, 80, 80, Paths.image('modsMenuButtons'), function() moveModToPosition(curSelectedMod - 1), 54, 54); //Move up
 		button.icon.animation.add('icon', [1]);
 		button.icon.animation.play('icon', true);
 		add(button);
 		buttons.push(button);
-		
+
 		var button = new MenuButton(buttonsX + 200, buttonsY, 80, 80, Paths.image('modsMenuButtons'), function() moveModToPosition(curSelectedMod + 1), 54, 54); //Move down
 		button.icon.animation.add('icon', [2]);
 		button.icon.animation.play('icon', true);
@@ -788,8 +788,6 @@ class ModsMenuState extends MusicBeatState
 
 		var path:String = 'modsList.txt';
 		File.saveContent(path, fileStr);
-		Mods.parseList();
-		Mods.loadTopMod();
 	}
 }
 
@@ -820,10 +818,11 @@ class ModItem extends FlxSpriteGroup
 		var path:String = Paths.mods('$folder/data/settings.json');
 		if(FileSystem.exists(path))
 		{
+			var data:String = File.getContent(path);
 			try
 			{
 				//trace('trying to load settings: $folder');
-				settings = tjson.TJSON.parse(File.getContent(path));
+				settings = tjson.TJSON.parse(data);
 			}
 			catch(e:Dynamic)
 			{
@@ -960,9 +959,9 @@ class MenuButton extends FlxSpriteGroup
 			return;
 		}
 
-		if(!ignoreCheck && !Controls.instance.controllerMode && (FlxG.mouse.justPressed || FlxG.mouse.justMoved) && FlxG.mouse.visible)
+		if(!ignoreCheck && !Controls.instance.controllerMode && FlxG.mouse.justMoved && FlxG.mouse.visible)
 			onFocus = FlxG.mouse.overlaps(this);
-		
+
 		if(onFocus && onClick != null && FlxG.mouse.justPressed)
 			onClick();
 
