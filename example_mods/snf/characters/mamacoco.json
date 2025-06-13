@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [-90, -310],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [187, -307],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [88, -290],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [-84, -14],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [-55, -303],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		}
+	],
+	"vocals_file": "mamacoco",
+	"no_antialiasing": false,
+	"image": "characters/LeakedCharacter",
+	"position": [-70, -10],
+	"healthicon": "mamacoco",
+	"flip_x": false,
+	"healthbar_colors": [255, 0, 0],
+	"camera_position": [-20, 130],
+	"sing_duration": 6.1,
+	"scale": 1.3,
+	"_editor_isPlayer": false
+}
