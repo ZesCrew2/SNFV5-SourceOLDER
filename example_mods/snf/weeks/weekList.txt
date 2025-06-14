@@ -12,6 +12,7 @@ week8
 weekendsandk
 sidestory1
 sidestory2
+sidestory2bonus
 sidestory3
 sidestory4
 mamacoconightfunkin
