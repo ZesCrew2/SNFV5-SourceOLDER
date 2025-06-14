@@ -10,7 +10,7 @@ import psychlua.FunkinLua;
 #end
 
 #if HSCRIPT_ALLOWED
-import tea.SScript;
+import SScript.SScript;
 class HScript extends SScript
 {
 	public var modFolder:String;
@@ -38,7 +38,7 @@ class HScript extends SScript
 		{
 			hs.varsToBring = varsToBring;
 			hs.doString(code);
-			@:privateAccess
+			@:privaSScriptccess
 			if(hs.parsingException != null)
 			{
 				PlayState.instance.addTextToDebug('ERROR ON LOADING (${hs.origin}): ${hs.parsingException.message}', FlxColor.RED);
@@ -307,7 +307,7 @@ class HScript extends SScript
 		}
 	}
 
-	public function executeCode(?funcToRun:String = null, ?funcArgs:Array<Dynamic> = null):Tea {
+	public function executeCode(?funcToRun:String = null, ?funcArgs:Array<Dynamic> = null):SScript {
 		if (funcToRun == null) return null;
 
 		trace('test');
@@ -340,7 +340,7 @@ class HScript extends SScript
 		return callValue;
 	}
 
-	public function executeFunction(funcToRun:String = null, funcArgs:Array<Dynamic>):Tea {
+	public function executeFunction(funcToRun:String = null, funcArgs:Array<Dynamic>):SScript {
 		if (funcToRun == null) return null;
 		return call(funcToRun, funcArgs);
 	}
@@ -350,7 +350,7 @@ class HScript extends SScript
 		funk.addLocalCallback("runHaxeCode", function(codeToRun:String, ?varsToBring:Any = null, ?funcToRun:String = null, ?funcArgs:Array<Dynamic> = null):Dynamic {
 			#if SScript
 			initHaxeModuleCode(funk, codeToRun, varsToBring);
-			final retVal:Tea = funk.hscript.executeCode(funcToRun, funcArgs);
+			final retVal:SScript = funk.hscript.executeCode(funcToRun, funcArgs);
 			if (retVal != null) {
 				if(retVal.succeeded)
 					return (retVal.returnValue == null || LuaUtils.isOfTypes(retVal.returnValue, [Bool, Int, Float, String, Array])) ? retVal.returnValue : null;
