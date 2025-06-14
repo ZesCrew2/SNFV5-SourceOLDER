@@ -1,0 +1,26 @@
+{
+	"storyName": "literally every sidestory ever",
+	"difficulties": "Added in SNF V5",
+	"hideFreeplay": false,
+	"weekBackground": "cwr",
+	"weekBefore": "Side-Story 2",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"bobcook",
+		"breezie2",
+		"sonic2025"
+	],
+	"songs": [
+		[
+			"Mental Fire Old",
+			"bob",
+			[
+				54,
+				131,
+				208
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Side-Story 2Bonus"
+}
