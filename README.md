@@ -11,7 +11,7 @@ Edit this code IF YOU DARE!!
 
 # Welcome to Sonic Night Funkin' v5 Source Code!
 
-## Hi, Herox here!
+## Hi, Arie "Herox" Temps here!
 We're originally gonna do an executable mod without Source Code for v5, but as a coder myself (*Herox*), I did a lot for the mod for this and we ran into problems within' lua limitations and errors. 
 
 However, when we discovered about doing **Source Code for SNF v5**:
