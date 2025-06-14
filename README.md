@@ -1,4 +1,4 @@
-# Sonic Night Funkin v5.0 (Lily [ZesCrew2])
+# Sonic Night Funkin v5.0 (Lily "ZesCrew2")
 
 Welcome to our *(poorly protected)* source code! This is a shitiily put together amalgam of psych engine versions hoping something will work
 With a skin of a mod from yester-year!
