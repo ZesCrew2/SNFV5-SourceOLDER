@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="DOOR.png">
-	<!-- Created with Adobe Animate version 19.2.1.408 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="AltIdle0000" x="0" y="0" width="567" height="965"/>
-	<SubTexture name="Idle0000" x="0" y="965" width="467" height="890"/>
-</TextureAtlas>

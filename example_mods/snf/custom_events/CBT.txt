@@ -1,5 +1,0 @@
-for FUNKSTER'
-
-Value 1: type "show launch"
-
-Value 2: nothin

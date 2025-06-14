@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="synWaving.png">
-<SubTexture name="hellohi0000" x="0" y="0" width="354" height="352" frameX="-64" frameY="-58" frameWidth="498" frameHeight="468" />
-<SubTexture name="hellohi0001" x="354" y="0" width="370" height="352" frameX="-64" frameY="-58" frameWidth="498" frameHeight="468" />
-</TextureAtlas>

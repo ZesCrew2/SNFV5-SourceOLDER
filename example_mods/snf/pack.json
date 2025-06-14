@@ -1,9 +1,0 @@
-{
-	"name": "Sonic Night Funkin' V5",
-	"description": "not done yet lolol",
-	"restart":false,
-	"runsGlobally": false,
-	"color": [0, 150, 253],
-	"discordRPC": "863222024192262205",
-	"iconFramerate": 10
-}
