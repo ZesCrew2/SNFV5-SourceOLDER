@@ -49,6 +49,7 @@ allSongs = { -- ADD THE SONGS HERE IN CASE IF IT GETS ADDED!!!! (- Herox/Arie Te
 'knuckleheaded',
 'lilypad',
 'mental-fire',
+'mental-fire-old',
 'midnight-muffle',
 'muckle',
 'netlore',
