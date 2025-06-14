@@ -1,8 +1,0 @@
-Layer Order:
-
-ghz-sky
-ghz-back-mountains
-ghz-mountains
-ghz-clouds
-ghz-water-yum-yum
-ghz-hill-that-is-indeed-green

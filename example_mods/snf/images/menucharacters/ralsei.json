@@ -1,9 +1,0 @@
-{
-	"idle_anim": "BF idle dance",
-	"antialiasing": true,
-	"confirm_anim": "BF HEY!!",
-	"position": [82, -30],
-	"scale": 0.55,
-	"flipX": false,
-	"image": "ralsei"
-}

@@ -1,9 +1,0 @@
-{
-	"confirm_anim": "Idle",
-	"antialiasing": true,
-	"idle_anim": "Idle",
-	"position": [122, 70],
-	"scale": 0.55,
-	"image": "robotnik",
-	"flipX": false
-}

@@ -1,9 +1,0 @@
-{
-	"idle_anim": "loop",
-	"image": "hattyPuppet",
-	"position": [380, 290],
-	"flipX": false,
-	"antialiasing": true,
-	"scale": 0.6,
-	"confirm_anim": "loop"
-}

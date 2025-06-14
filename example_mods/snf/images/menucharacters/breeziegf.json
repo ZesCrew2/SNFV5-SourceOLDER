@@ -1,9 +1,0 @@
-{
-	"confirm_anim": "IdleDance",
-	"antialiasing": true,
-	"idle_anim": "IdleDance",
-	"position": [122, 130],
-	"scale": 0.4,
-	"image": "breezie2",
-	"flipX": false
-}
