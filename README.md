@@ -4,9 +4,10 @@ Welcome to our *(poorly protected)* source code! This is a shitiily put together
 With a skin of a mod from yester-year!
 
 Edit this code IF YOU DARE!!
+
 ![SNFLogo](https://cdn.discordapp.com/attachments/1366820283037651128/1383434072424185926/snf-logo-spin-yay.gif?ex=684ec6e1&is=684d7561&hm=d98d471adbe836070ad559a2951c5288af6a55d74a8106dece1fa19adf0319ec&)
 
---
+----------------------------------------------------
 
 # Welcome to Sonic Night Funkin' v5 Source Code!
 
