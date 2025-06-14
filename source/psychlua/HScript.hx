@@ -10,7 +10,7 @@ import psychlua.FunkinLua;
 #end
 
 #if HSCRIPT_ALLOWED
-import TeaCall.SScript;
+import tea.TeaCall.SScript;
 class HScript extends SScript
 {
 	public var modFolder:String;
