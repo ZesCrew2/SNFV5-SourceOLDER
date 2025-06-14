@@ -166,6 +166,6 @@ class StrumNote extends FlxSprite
 			centerOffsets();
 			centerOrigin();
 		}
-		if(useRGBShader) rgbShader.enabled = animation.curAnim != null;
+		if(useRGBShader) rgbShader.enabled = animation.curAnim != static;
 	}
 }
